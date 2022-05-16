@@ -10,3 +10,13 @@
 //     document.body.appendChild(para);
 //     setInterval(function(){ para.remove()}, 2800);
 // }
+
+setInterval(secund, 1000);
+
+function secund() {
+    const secund = document.createElement("div");
+    secund.innerText = new Date().getSeconds();
+    secund.classList.add("sec");
+    document.getElementById("secund").appendChild(secund);
+    setInterval(function(){secund.remove()}, 1500);
+}
