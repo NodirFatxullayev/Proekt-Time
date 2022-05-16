@@ -45,4 +45,19 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #eaeaea;
+    animation-name: box;
+    animation-duration: 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    transform-origin: top center;
+}
+
+@keyframes box{
+    0%{
+        transform: perspective(1000px) rotateX(-95deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateX(0deg);
+    }
 }
