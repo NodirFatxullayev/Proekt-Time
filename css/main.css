@@ -9,4 +9,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #eaeaea;
+    font-family: sans-serif;
+}
+
+.time{
+    width: 600px;
+    height: 150px;
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+    box-shadow: 0 0 8px 15px #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+.time div{
+    width: 30%;
+    height: 90%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: rgb(64, 112, 102);
 }
